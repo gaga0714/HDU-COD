@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Top.ucf -p xc7a100t-fgg484-2L ALU_Top.ngc ALU_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Top_map.ncd ALU_Top.ngd ALU_Top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Top.ucf -p xc7a100t-fgg484-2L ALU_Top.ngc ALU_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Top_map.ncd ALU_Top.ngd ALU_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Top_map.ncd ALU_Top.ncd ALU_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Top.twx ALU_Top.ncd -o ALU_Top.twr ALU_Top.pcf -ucf ALU_Top.ucf 
+bitgen -intstyle ise -f ALU_Top.ut ALU_Top.ncd 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Top.ucf -p xc7a100t-fgg484-2L ALU_Top.ngc ALU_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Top_map.ncd ALU_Top.ngd ALU_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Top_map.ncd ALU_Top.ncd ALU_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Top.twx ALU_Top.ncd -o ALU_Top.twr ALU_Top.pcf -ucf ALU_Top.ucf 
+bitgen -intstyle ise -f ALU_Top.ut ALU_Top.ncd 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Top.ucf -p xc7a100t-fgg484-2L ALU_Top.ngc ALU_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Top_map.ncd ALU_Top.ngd ALU_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Top_map.ncd ALU_Top.ncd ALU_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Top.twx ALU_Top.ncd -o ALU_Top.twr ALU_Top.pcf -ucf ALU_Top.ucf 
+bitgen -intstyle ise -f ALU_Top.ut ALU_Top.ncd 
+xst -intstyle ise -ifn "C:/gaga/work/test/ALU/ALU_Top.xst" -ofn "C:/gaga/work/test/ALU/ALU_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Top.ucf -p xc7a100t-fgg484-2L ALU_Top.ngc ALU_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Top_map.ncd ALU_Top.ngd ALU_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Top_map.ncd ALU_Top.ncd ALU_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Top.twx ALU_Top.ncd -o ALU_Top.twr ALU_Top.pcf -ucf ALU_Top.ucf 
+bitgen -intstyle ise -f ALU_Top.ut ALU_Top.ncd 
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Top_map.ncd ALU_Top.ngd ALU_Top.pcf 

@@ -1,0 +1,5 @@
+verilog work "D_Reg4.v"
+verilog work "D_Reg.v"
+verilog work "Display.v"
+verilog work "ALU.v"
+verilog work "ALU_Top.v"

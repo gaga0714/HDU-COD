@@ -1,0 +1,212 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Apr 24 11:54:30 2024
+# Process ID: 175964
+# Log file: C:/gaga/work/test/ALU/planAhead_run_2/planAhead.log
+# Journal file: C:/gaga/work/test/ALU/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/gaga/work/test/ALU/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T3 [get_ports {SW[31]}]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list {SW[31]} {SW[30]} {SW[29]} {SW[28]} {SW[27]} {SW[26]} {SW[25]} {SW[24]} {SW[23]} {SW[22]} {SW[21]} {SW[20]} {SW[19]} {SW[18]} {SW[17]} {SW[16]} {SW[15]} {SW[14]} {SW[13]} {SW[12]} {SW[11]} {SW[10]} {SW[9]} {SW[8]} {SW[7]} {SW[6]} {SW[5]} {SW[4]} {SW[3]} {SW[2]} {SW[1]} {SW[0]}]]
+startgroup
+set_property package_pin U3 [get_ports {SW[30]}]
+endgroup
+startgroup
+set_property package_pin T4 [get_ports {SW[29]}]
+endgroup
+startgroup
+set_property package_pin V3 [get_ports {SW[28]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SW[26]}]]
+startgroup
+set_property package_pin V4 [get_ports {SW[27]}]
+endgroup
+startgroup
+set_property package_pin W4 [get_ports {SW[26]}]
+endgroup
+startgroup
+set_property package_pin Y4 [get_ports {SW[25]}]
+endgroup
+startgroup
+set_property package_pin Y6 [get_ports {SW[24]}]
+endgroup
+startgroup
+set_property package_pin W7 [get_ports {SW[23]}]
+endgroup
+startgroup
+set_property package_pin Y8 [get_ports {SW[22]}]
+endgroup
+startgroup
+set_property package_pin Y7 [get_ports {SW[21]}]
+endgroup
+startgroup
+set_property package_pin T1 [get_ports {SW[20]}]
+endgroup
+startgroup
+set_property package_pin U1 [get_ports {SW[19]}]
+endgroup
+startgroup
+set_property package_pin U2 [get_ports {SW[18]}]
+endgroup
+startgroup
+set_property package_pin W1 [get_ports {SW[17]}]
+endgroup
+startgroup
+set_property package_pin W2 [get_ports {SW[16]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SW[15]}]]
+startgroup
+set_property package_pin W2 [get_ports {SW[16]}]
+endgroup
+startgroup
+set_property package_pin Y1 [get_ports {SW[15]}]
+endgroup
+startgroup
+set_property package_pin AA1 [get_ports {SW[14]}]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports {SW[13]}]
+endgroup
+startgroup
+set_property package_pin Y2 [get_ports {SW[12]}]
+endgroup
+startgroup
+set_property package_pin AB1 [get_ports {SW[11]}]
+endgroup
+startgroup
+set_property package_pin AB2 [get_ports {SW[10]}]
+endgroup
+startgroup
+set_property package_pin AB3 [get_ports {SW[9]}]
+endgroup
+startgroup
+set_property package_pin AB5 [get_ports {SW[8]}]
+endgroup
+startgroup
+set_property package_pin AA6 [get_ports {SW[7]}]
+endgroup
+startgroup
+set_property package_pin R2 [get_ports {SW[6]}]
+endgroup
+startgroup
+set_property package_pin R3 [get_ports {SW[5]}]
+endgroup
+startgroup
+set_property package_pin T6 [get_ports {SW[4]}]
+endgroup
+startgroup
+set_property package_pin R6 [get_ports {SW[3]}]
+endgroup
+startgroup
+set_property package_pin U7 [get_ports {SW[2]}]
+endgroup
+startgroup
+set_property package_pin AB7 [get_ports {SW[1]}]
+endgroup
+startgroup
+set_property package_pin AB8 [get_ports {SW[0]}]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list {which[2]} {which[1]} {which[0]}]]
+set_property pulltype PULLDOWN [get_ports [list {SW[31]} {SW[30]} {SW[29]} {SW[28]} {SW[27]} {SW[26]} {SW[25]} {SW[24]} {SW[23]} {SW[22]} {SW[21]} {SW[20]} {SW[19]} {SW[18]} {SW[17]} {SW[16]} {SW[15]} {SW[14]} {SW[13]} {SW[12]} {SW[11]} {SW[10]} {SW[9]} {SW[8]} {SW[7]} {SW[6]} {SW[5]} {SW[4]} {SW[3]} {SW[2]} {SW[1]} {SW[0]}]]
+set_property package_pin "" [get_ports [list  clk_A]]
+startgroup
+set_property package_pin H19 [get_ports {seg[7]}]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list {seg[7]} {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+startgroup
+set_property package_pin G20 [get_ports {seg[6]}]
+endgroup
+startgroup
+set_property package_pin J22 [get_ports {seg[5]}]
+endgroup
+startgroup
+set_property package_pin K22 [get_ports {seg[4]}]
+endgroup
+startgroup
+set_property package_pin K21 [get_ports {seg[3]}]
+endgroup
+startgroup
+set_property package_pin H20 [get_ports {seg[2]}]
+endgroup
+startgroup
+set_property package_pin H22 [get_ports {seg[1]}]
+endgroup
+startgroup
+set_property package_pin J21 [get_ports {seg[0]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {Out_Sel[1]}]
+endgroup
+startgroup
+set_property package_pin Y9 [get_ports {Out_Sel[0]}]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list {Out_Sel[1]} {Out_Sel[0]}]]
+set_property pulltype PULLDOWN [get_ports [list {Out_Sel[1]} {Out_Sel[0]}]]
+startgroup
+set_property package_pin R1 [get_ports {FR[3]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {FR[2]}]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports {FR[1]}]
+endgroup
+startgroup
+set_property package_pin N2 [get_ports {FR[0]}]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list {FR[3]} {FR[2]} {FR[1]} {FR[0]}]]
+startgroup
+set_property package_pin M22 [get_ports {which[2]}]
+endgroup
+startgroup
+set_property package_pin M21 [get_ports {which[1]}]
+endgroup
+startgroup
+set_property package_pin N22 [get_ports {which[0]}]
+endgroup
+startgroup
+set_property package_pin L21 [get_ports enable]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list clk_20M]]
+set_property iostandard LVCMOS18 [get_ports [list clk_A]]
+set_property iostandard LVCMOS18 [get_ports [list clk_B]]
+set_property iostandard LVCMOS18 [get_ports [list clk_F]]
+set_property iostandard LVCMOS18 [get_ports [list enable]]
+set_property iostandard LVCMOS18 [get_ports [list rst]]
+set_property package_pin "" [get_ports [list  clk_20M]]
+set_property package_pin "" [get_ports [list  rst]]
+startgroup
+set_property package_pin H4 [get_ports clk_20M]
+endgroup
+set_property package_pin "" [get_ports [list  clk_A]]
+set_property pulltype PULLDOWN [get_ports [list clk_20M]]
+startgroup
+set_property package_pin R4 [get_ports clk_A]
+endgroup
+startgroup
+set_property package_pin AA4 [get_ports clk_B]
+endgroup
+startgroup
+set_property package_pin AB6 [get_ports clk_F]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports {SW[13]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {Out_Sel[1]}]
+endgroup
+startgroup
+set_property package_pin AA8 [get_ports {Out_Sel[0]}]
+endgroup
+set_property pulltype PULLDOWN [get_ports [list clk_A]]
+set_property pulltype PULLDOWN [get_ports [list clk_B]]
+set_property pulltype PULLDOWN [get_ports [list clk_F]]
+set_property pulltype PULLDOWN [get_ports [list rst]]
+save_constraints

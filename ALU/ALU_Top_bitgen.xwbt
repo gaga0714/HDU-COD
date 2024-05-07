@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\gaga\work\test\ALU\ALU_Top.ncd
+OUTFILE=C:\gaga\work\test\ALU\ALU_Top.bit
+FAMILY=Artix7
+PART=xc7a100t-2lfgg484
+WORKINGDIR=C:\gaga\work\test\ALU
+LICENSE=WebPack
+USER_INFO=__0_0_0
