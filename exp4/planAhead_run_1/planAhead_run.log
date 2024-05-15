@@ -1,0 +1,70 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/gaga/work/test/exp4/pa.fromNetlist.tcl
+# create_project -name exp4 -dir "D:/gaga/work/test/exp4/planAhead_run_1" -part xc7a100tfgg484-2L
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/gaga/work/test/exp4/ALU_Regs_Top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/gaga/work/test/exp4} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ALU_Regs_Top.ucf" [current_fileset -constrset]
+Adding file 'D:/gaga/work/test/exp4/ALU_Regs_Top.ucf' to fileset 'constrs_1'
+# add_files [list {ALU_Regs_Top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tfgg484-2L
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ALU_Regs_Top.ngc ...
+WARNING:NetListWriters:298 - No output is written to ALU_Regs_Top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ALU_Regs_Top.edif ...
+ngc2edif: Total memory usage is 85744 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/exp4.data/cache/ALU_Regs_Top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/exp4.data/cache/ALU_Regs_Top_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 122 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'ALU_Regs_Top' is not ideal for floorplanning, since the cellview 'ALU_Regs_Top' defined in file 'ALU_Regs_Top.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/fgg484/Package.xml
+Loading io standards from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [D:/gaga/work/test/exp4/ALU_Regs_Top.ucf]
+Finished Parsing UCF File [D:/gaga/work/test/exp4/ALU_Regs_Top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 122 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 4 instances
+  FDC => FDCE: 118 instances
+
+Phase 0 | Netlist Checksum: c4e5aff1
+link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 886.773 ; gain = 352.945
+startgroup
+set_property package_pin L21 [get_ports enable]
+endgroup
+set_property offchip_term NONE [get_ports [list enable]]
+set_property offchip_term FP_VTT_50 [get_ports [list enable]]
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed May 15 00:02:25 2024...
+INFO: [Common 17-83] Releasing license: PlanAhead

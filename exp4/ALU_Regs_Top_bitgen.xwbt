@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\gaga\work\test\exp4\ALU_Regs_Top.ncd
+OUTFILE=D:\gaga\work\test\exp4\ALU_Regs_Top.bit
+FAMILY=Artix7
+PART=xc7a100t-2lfgg484
+WORKINGDIR=D:\gaga\work\test\exp4
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed May 15 10:56:48 2024
+# Process ID: 21512
+# Log file: D:/gaga/work/test/exp4/planAhead_run_4/planAhead.log
+# Journal file: D:/gaga/work/test/exp4/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/gaga/work/test/exp4/pa.fromNetlist.tcl

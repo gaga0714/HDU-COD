@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "D:/gaga/work/test/exp4/ALU_Regs_Top.xst" -ofn "D:/gaga/work/test/exp4/ALU_Regs_Top.syr" 
+xst -intstyle ise -ifn "D:/gaga/work/test/exp4/ALU_Regs_Top.xst" -ofn "D:/gaga/work/test/exp4/ALU_Regs_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Regs_Top.ucf -p xc7a100t-fgg484-2L ALU_Regs_Top.ngc ALU_Regs_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Regs_Top_map.ncd ALU_Regs_Top.ngd ALU_Regs_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Regs_Top_map.ncd ALU_Regs_Top.ncd ALU_Regs_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Regs_Top.twx ALU_Regs_Top.ncd -o ALU_Regs_Top.twr ALU_Regs_Top.pcf -ucf ALU_Regs_Top.ucf 
+bitgen -intstyle ise -f ALU_Regs_Top.ut ALU_Regs_Top.ncd 
+bitgen -intstyle ise -f ALU_Regs_Top.ut ALU_Regs_Top.ncd 
+xst -intstyle ise -ifn "D:/gaga/work/test/exp4/ALU_Regs_Top.xst" -ofn "D:/gaga/work/test/exp4/ALU_Regs_Top.syr" 
+xst -intstyle ise -ifn "D:/gaga/work/test/exp4/ALU_Regs_Top.xst" -ofn "D:/gaga/work/test/exp4/ALU_Regs_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-fgg484-2L ALU_Regs_Top.ngc ALU_Regs_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Regs_Top_map.ncd ALU_Regs_Top.ngd ALU_Regs_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Regs_Top_map.ncd ALU_Regs_Top.ncd ALU_Regs_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Regs_Top.twx ALU_Regs_Top.ncd -o ALU_Regs_Top.twr ALU_Regs_Top.pcf 
+bitgen -intstyle ise -f ALU_Regs_Top.ut ALU_Regs_Top.ncd 
+xst -intstyle ise -ifn "D:/gaga/work/test/exp4/ALU_Regs_Top.xst" -ofn "D:/gaga/work/test/exp4/ALU_Regs_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU_Regs_Top.ucf -p xc7a100t-fgg484-2L ALU_Regs_Top.ngc ALU_Regs_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Regs_Top_map.ncd ALU_Regs_Top.ngd ALU_Regs_Top.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Regs_Top_map.ncd ALU_Regs_Top.ncd ALU_Regs_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml ALU_Regs_Top.twx ALU_Regs_Top.ncd -o ALU_Regs_Top.twr ALU_Regs_Top.pcf -ucf ALU_Regs_Top.ucf 
+bitgen -intstyle ise -f ALU_Regs_Top.ut ALU_Regs_Top.ncd 

@@ -1,0 +1,7 @@
+verilog work "Regs.v"
+verilog work "../ALU/D_Reg4.v"
+verilog work "../ALU/D_Reg.v"
+verilog work "../ALU/ALU.v"
+verilog work "ALU_Regs.v"
+verilog work "../ALU/Display.v"
+verilog work "ALU_Regs_Top.v"

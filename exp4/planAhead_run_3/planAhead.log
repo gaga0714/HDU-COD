@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed May 15 09:39:39 2024
+# Process ID: 2936
+# Log file: D:/gaga/work/test/exp4/planAhead_run_3/planAhead.log
+# Journal file: D:/gaga/work/test/exp4/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/gaga/work/test/exp4/pa.fromNetlist.tcl
+# create_project -name exp4 -dir "D:/gaga/work/test/exp4/planAhead_run_3" -part xc7a100tfgg484-2L
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/gaga/work/test/exp4/ALU_Regs_Top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/gaga/work/test/exp4} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ALU_Regs_Top.ucf" [current_fileset -constrset]
+Adding file 'D:/gaga/work/test/exp4/ALU_Regs_Top.ucf' to fileset 'constrs_1'
+# add_files [list {ALU_Regs_Top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tfgg484-2L
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
