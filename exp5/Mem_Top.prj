@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "Mem.v"
+verilog work "Display.v"
+verilog work "Mem_Top.v"

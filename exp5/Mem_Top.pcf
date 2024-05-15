@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed May 15 19:13:15 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "DM_Addr<2>" LOCATE = SITE "Y4" LEVEL 1;
+COMP "DM_Addr<3>" LOCATE = SITE "W4" LEVEL 1;
+COMP "DM_Addr<4>" LOCATE = SITE "V4" LEVEL 1;
+COMP "DM_Addr<5>" LOCATE = SITE "V3" LEVEL 1;
+COMP "DM_Addr<6>" LOCATE = SITE "T4" LEVEL 1;
+COMP "DM_Addr<7>" LOCATE = SITE "U3" LEVEL 1;
+COMP "clk" LOCATE = SITE "H4" LEVEL 1;
+COMP "enable" LOCATE = SITE "L21" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "J21" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "H22" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "H20" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "K21" LEVEL 1;
+COMP "Mem_Write" LOCATE = SITE "T3" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "K22" LEVEL 1;
+COMP "MW_Data_s<0>" LOCATE = SITE "Y7" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "J22" LEVEL 1;
+COMP "MW_Data_s<1>" LOCATE = SITE "Y8" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "G20" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "H19" LEVEL 1;
+COMP "clk_dm" LOCATE = SITE "AA4" LEVEL 1;
+PIN clk_dm_pin<0> = BEL "clk_dm" PINNAME PAD;
+PIN "clk_dm_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "which<0>" LOCATE = SITE "N22" LEVEL 1;
+COMP "which<1>" LOCATE = SITE "M21" LEVEL 1;
+COMP "which<2>" LOCATE = SITE "M22" LEVEL 1;
+COMP "rst" LOCATE = SITE "R4" LEVEL 1;
+COMP "DM_Addr<0>" LOCATE = SITE "W7" LEVEL 1;
+COMP "DM_Addr<1>" LOCATE = SITE "Y6" LEVEL 1;
+SCHEMATIC END;
+

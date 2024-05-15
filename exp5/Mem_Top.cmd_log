@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/gaga/work/test/exp5/Mem_Top.xst" -ofn "D:/gaga/work/test/exp5/Mem_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_Top.ucf -p xc7a100t-fgg484-2L Mem_Top.ngc Mem_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Mem_Top_map.ncd Mem_Top.ngd Mem_Top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_Top.ucf -p xc7a100t-fgg484-2L Mem_Top.ngc Mem_Top.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Mem_Top_map.ncd Mem_Top.ngd Mem_Top.pcf 
+par -w -intstyle ise -ol high -mt off Mem_Top_map.ncd Mem_Top.ncd Mem_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Mem_Top.twx Mem_Top.ncd -o Mem_Top.twr Mem_Top.pcf -ucf Mem_Top.ucf 
+bitgen -intstyle ise -f Mem_Top.ut Mem_Top.ncd 
