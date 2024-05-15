@@ -1,0 +1,177 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/gaga/work/test/exp5/pa.fromNetlist.tcl
+# create_project -name exp5 -dir "D:/gaga/work/test/exp5/planAhead_run_1" -part xc7a100tfgg484-2L
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/gaga/work/test/exp5/Mem_Top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/gaga/work/test/exp5} {ipcore_dir} }
+# add_files [list {ipcore_dir/RAM_B.ncf}] -fileset [get_property constrset [current_run]]
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Mem_Top.ucf" [current_fileset -constrset]
+Adding file 'D:/gaga/work/test/exp5/Mem_Top.ucf' to fileset 'constrs_1'
+# add_files [list {Mem_Top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tfgg484-2L
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Mem_Top.ngc ...
+WARNING:NetListWriters:298 - No output is written to Mem_Top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Mem_Top.edif ...
+ngc2edif: Total memory usage is 83060 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/exp5.data/cache/Mem_Top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/exp5.data/cache/Mem_Top_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RAM_B.ngc ...
+WARNING:NetListWriters:298 - No output is written to RAM_B.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RAM_B.edif ...
+ngc2edif: Total memory usage is 82868 kilobytes
+
+Reading core file 'D:/gaga/work/test/exp5/ipcore_dir/RAM_B.ngc' for (cell view 'RAM_B', library 'Mem_Top_lib', file 'Mem_Top.ngc')
+Parsing EDIF File [./planAhead_run_1/exp5.data/cache/RAM_B_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/exp5.data/cache/RAM_B_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/fgg484/Package.xml
+Loading io standards from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/gaga/program/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [D:/gaga/work/test/exp5/ipcore_dir/RAM_B.ncf]
+Finished Parsing UCF File [D:/gaga/work/test/exp5/ipcore_dir/RAM_B.ncf]
+Parsing UCF File [D:/gaga/work/test/exp5/Mem_Top.ucf]
+Finished Parsing UCF File [D:/gaga/work/test/exp5/Mem_Top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 2 instances
+  FDC => FDCE: 18 instances
+
+Phase 0 | Netlist Checksum: e68016fc
+link_design: Time (s): elapsed = 00:00:16 . Memory (MB): peak = 856.715 ; gain = 331.652
+startgroup
+set_property package_pin T3 [get_ports Mem_Write]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports {DM_Addr[7]}]
+endgroup
+startgroup
+set_property package_pin T4 [get_ports {DM_Addr[6]}]
+endgroup
+startgroup
+set_property package_pin V3 [get_ports {DM_Addr[5]}]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports {DM_Addr[4]}]
+endgroup
+startgroup
+set_property package_pin W4 [get_ports {DM_Addr[3]}]
+endgroup
+startgroup
+set_property package_pin Y4 [get_ports {DM_Addr[2]}]
+endgroup
+startgroup
+set_property package_pin Y6 [get_ports {DM_Addr[1]}]
+endgroup
+startgroup
+set_property package_pin W7 [get_ports {DM_Addr[0]}]
+endgroup
+startgroup
+set_property package_pin Y8 [get_ports {MW_Data_s[1]}]
+endgroup
+startgroup
+set_property package_pin Y7 [get_ports {MW_Data_s[0]}]
+endgroup
+startgroup
+set_property package_pin H19 [get_ports {seg[7]}]
+endgroup
+startgroup
+set_property package_pin G20 [get_ports {seg[6]}]
+endgroup
+startgroup
+set_property package_pin J22 [get_ports {seg[5]}]
+endgroup
+startgroup
+set_property package_pin K22 [get_ports {seg[4]}]
+endgroup
+startgroup
+set_property package_pin K21 [get_ports {seg[3]}]
+endgroup
+startgroup
+set_property package_pin H20 [get_ports {seg[2]}]
+endgroup
+startgroup
+set_property package_pin H22 [get_ports {seg[1]}]
+endgroup
+startgroup
+set_property package_pin J21 [get_ports {seg[0]}]
+endgroup
+startgroup
+set_property package_pin N22 [get_ports {which[0]}]
+endgroup
+startgroup
+set_property package_pin M21 [get_ports {which[1]}]
+endgroup
+startgroup
+set_property package_pin M22 [get_ports {which[2]}]
+endgroup
+startgroup
+set_property package_pin R4 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin AA4 [get_ports clk_dm]
+endgroup
+startgroup
+set_property package_pin L21 [get_ports enable]
+endgroup
+startgroup
+set_property package_pin H4 [get_ports clk]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list clk]]
+set_property iostandard LVCMOS18 [get_ports [list clk_dm]]
+set_property iostandard LVCMOS18 [get_ports [list enable]]
+set_property iostandard LVCMOS18 [get_ports [list Mem_Write]]
+set_property iostandard LVCMOS18 [get_ports [list rst]]
+set_property iostandard LVCMOS18 [get_ports [list {DM_Addr[7]} {DM_Addr[6]} {DM_Addr[5]} {DM_Addr[4]} {DM_Addr[3]} {DM_Addr[2]} {DM_Addr[1]} {DM_Addr[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list {MW_Data_s[1]} {MW_Data_s[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list {seg[7]} {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list {which[2]} {which[1]} {which[0]}]]
+set_property pulltype PULLDOWN [get_ports [list {DM_Addr[7]} {DM_Addr[6]} {DM_Addr[5]} {DM_Addr[4]} {DM_Addr[3]} {DM_Addr[2]} {DM_Addr[1]} {DM_Addr[0]}]]
+set_property pulltype PULLDOWN [get_ports [list {MW_Data_s[1]} {MW_Data_s[0]}]]
+set_property pulltype PULLDOWN [get_ports [list clk]]
+set_property pulltype PULLDOWN [get_ports [list clk_dm]]
+set_property pulltype PULLDOWN [get_ports [list Mem_Write]]
+set_property pulltype PULLDOWN [get_ports [list rst]]
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed May 15 19:11:03 2024...
+INFO: [Common 17-83] Releasing license: PlanAhead
